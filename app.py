@@ -59,7 +59,7 @@ def main():
     if "logged_in" not in st.session_state:
         st.session_state["logged_in"] = False
 
-    st.title("⚡PowerText Lite")
+    st.title("🔮 WriteWizard AI")
 
     # Check if the user is logged in
     if not st.session_state["logged_in"]:
